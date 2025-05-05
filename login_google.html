@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login - Versos de Carlos</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      background-color: #111;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .logo-verso {
+      width: 80px;
+      margin-bottom: 20px;
+    }
+
+    .card {
+      background-color: #1e1e1e;
+      padding: 30px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 0 12px rgba(255, 255, 255, 0.1);
+    }
+
+    .google-button {
+      background-color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 6px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .google-button img {
+      width: 20px;
+      margin-right: 10px;
+    }
+
+    a {
+      color: violet;
+      margin-top: 15px;
+      display: inline-block;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <!-- Ícone do topo -->
+  <img src="icone.jpg" alt="Símbolo de Verso" class="logo-verso" />
+
+  <div class="card">
+    <h2>Login com Google</h2>
+
+    <button id="googleLogin" class="google-button">
+        <img src="https://developers.google.com/identity/images/g-logo.png" alt="Google icon" width="20" />
+        Entrar com Google        
+    </button>
+
+    <a href="index.html">Voltar</a>
+  </div>
+  <!-- Seu script -->
+  <script src="script.js"></script>
+</body>
+</html>
+
